@@ -1,8 +1,8 @@
-Geschlecht = input ('Geben Sie ihre Geschlecht ein : W or M' )
+Geschlecht = input ('Geben Sie ihre Geschlecht ein : W or M'  )
 if Geschlecht =='W':
-    print('Weblich')
+    print('Sie sind : Weblich')
 else:
-    print('Männlich')    
+    print('Sie sind : Männlich')    
 Größe = int(input('Geben Sie ihre Größe ein:'))
 Gewicht = int (input('Geben Sie ihre Gewicht ein:')) 
 Bmi = (Gewicht / (Größe*Größe))*10000
